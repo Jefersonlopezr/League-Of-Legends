@@ -1028,3 +1028,123 @@ body.lol-campeones-page {
 .elo-card p {
   font-size: 14px;
 }
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background: #222;
+  padding: 30px;
+  border-radius: 10px;
+  max-width: 600px;
+  width: 90%;
+  position: relative;
+  color: white;
+}
+
+.modal-content h2 {
+  color: gold;
+}
+
+.modal-content img {
+  width: 100px;
+  float: right;
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 25px;
+  color: white;
+  cursor: pointer;
+}
+
+.universe-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+}
+
+.orbita-card {
+  background: #181824;
+  border-radius: 14px;
+  padding: 24px;
+  width: 255px;
+  text-align: center;
+  box-shadow: 0 0 14px rgba(255, 255, 255, 0.12);
+  cursor: pointer;
+  transition: transform 0.18s cubic-bezier(.4, 2, .6, 1);
+}
+
+.orbita-card:hover {
+  transform: scale(1.06);
+}
+
+.orbita-card img {
+  width: 104px;
+  height: auto;
+}
+
+.orbita-card h2 {
+  margin: 12px 0;
+  color: #ffec80;
+}
+
+.orbita-card p {
+  font-size: 15px;
+}
+
+/* Modal */
+.portal-fondo {
+  display: none;
+  position: fixed;
+  z-index: 1002;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(20, 20, 40, 0.92);
+  justify-content: center;
+  align-items: center;
+}
+
+.portal-caja {
+  background: #23234a;
+  padding: 34px;
+  border-radius: 14px;
+  max-width: 630px;
+  width: 93%;
+  position: relative;
+  color: #fff;
+}
+
+.portal-caja h2 {
+  color: #ffec80;
+}
+
+.portal-caja img {
+  width: 104px;
+  float: right;
+}
+
+.portal-cerrar {
+  position: absolute;
+  top: 13px;
+  right: 19px;
+  font-size: 28px;
+  color: #fff;
+  cursor: pointer;
+}
+
