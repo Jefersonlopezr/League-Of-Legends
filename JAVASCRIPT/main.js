@@ -106,3 +106,49 @@ function renderizarCampeones(campeones) {
     };
   });
 }
+
+
+// Función para filtrar campeones
+function filtrarCampeones(tipo) {
+  if (tipo === 'all') {
+    renderizarCampeones(todosCampeones);
+    return;
+  }
+
+  const filtrados = todosCampeones.filter(campeon =>
+    campeon.tags.includes(tipo)
+  );
+  renderizarCampeones(filtrados);
+}
+
+
+document.querySelectorAll('.filtro-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    filtrarCampeones(btn.dataset.tipo);
+  });
+});
+
+// Cargar campeones desde la API
+async function cargarCampeones() {
+  const version = '14.11.1';
+  const apiURL = `https://ddragon.leagueoflegends.com/cdn/${version}/data/es_ES/champion.json`;
+
+  try {
+    const res = await fetch(apiURL);
+    const data = await res.json();
+    todosCampeones = Object.values(data.data).map(campeon => ({
+      ...campeon,
+      tags: campeon.tags || [] 
+    }));
+
+    renderizarCampeones(todosCampeones);
+  } catch (e) {
+    console.error('Error al cargar campeones:', e);
+    container.innerHTML = '<p class="error">Error al cargar los campeones. Intenta nuevamente más tarde.</p>';
+  }
+}
+
+closeModal.onclick = () => modal.style.display = 'none';
+window.onclick = e => { if (e.target === modal) modal.style.display = 'none'; };
+
+cargarCampeones();
