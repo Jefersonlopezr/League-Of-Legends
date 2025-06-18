@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Campeones LoL</title>
+    <link rel="stylesheet" href="../styles.css" />
+</head>
+
+<body class="lol-campeones-page">
+    <main class="contenedor-inicial">
+        <header class="lol-navbar">
+            <div class="logo">
+                <img src="../MULTIMEDIA/lol.png" alt="League of Legends Logo">
+            </div>
+            <nav class="probando-clase">
+                <ul class="nav-links">
+                    <li><a class="letra-tipo-lol" href="../index.html">Inicio</a></li>
+                    <li><a class="letra-tipo-lol " href="./como-jugar.html">Cómo jugar</a></li>
+                    <li><a class="letra-tipo-lol" href="./modos-juego.html">Modos de juego</a></li>
+                    <li><a class="letra-tipo-lol" href="./elos-lol.html">Rangos</a></li>
+                    <li><a class="letra-tipo-lol" href="https://www.leagueoflegends.com/es-mx/download/" target="_blank" rel="noopener">Jugar</a></li>
+                </ul>
+            </nav>
+        </header>
+        <br>
+        <section>
+            <!-- Título y filtros -->
+            <div class="filtros-container">
+                <h1 class="titulo-campeones">ELIGE QUÉ CAMPEÓN TE GUSTA</h1>
+                <div class="filtros">
+                    <button class="filtro-btn" data-tipo="Mage">Magos</button>
+                    <button class="filtro-btn" data-tipo="Tank">Tanques</button>
+                    <button class="filtro-btn" data-tipo="Marksman">Tiradores</button>
+                    <button class="filtro-btn" data-tipo="Fighter">Luchadores</button>
+                    <button class="filtro-btn" data-tipo="Assassin">Asesinos</button>
+                    <button class="filtro-btn" data-tipo="Support">Apoyos</button>
+                    <button class="filtro-btn" data-tipo="all">Todos</button>
+                </div>
+            </div>
+
+            <!-- Contenedor de tarjetas -->
+            <div class="lol-campeones-container"></div>
+
+            <!-- Modal de información del campeón -->
+            <div id="lol-campeones-modal" class="lol-campeones-modal">
+                <div class="lol-campeones-modal-content">
+                    <span id="lol-campeones-close" class="lol-campeones-close">&times;</span>
+
+                    <div class="lol-campeones-modal-image-section">
+                        <img id="lol-campeones-modal-image" src="" alt="Imagen del campeón">
+                    </div>
+
+                    <div class="lol-campeones-modal-info-section">
+                        <h2 id="lol-campeones-modal-name"></h2>
+                        <div id="lol-campeones-modal-abilities" class="lol-campeones-modal-abilities"></div>
+                        <p id="lol-campeones-modal-lore"></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <script src="../JAVASCRIPT/main.js"></script>
+</body>
+
+</html>
