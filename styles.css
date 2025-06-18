@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Arial", sans-serif;
+}
+
+body {
+  background-color: #0a0a0a;
+  color: white;
+  line-height: 1.6;
+}
+
+/* Campeón */
+.champion {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 60px 20px;
+  background-color: #f7f7f7;
+  color: #111;
+}
+.champion .text {
+  max-width: 600px;
+}
+.champion h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+.champion .buttons {
+  margin: 20px 0;
+}
+.champion button {
+  padding: 12px 20px;
+  margin-right: 10px;
+  background-color: #c2a869;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  font-family: sans-serif;
+}
+.champion .secondary {
+  background-color: #3dafd5;
+  font-size: 20px;
+}
+.champion .icons img {
+  margin-right: 10px;
+  width: 80px;
+}
+
+.champion-img {
+  width: 350px;
+  height: auto;
+}
+
+/* Jugar */
+.play {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 60px 20px;
+  background-color: #0a0f1f;
+}
+.play h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+.play button {
+  padding: 12px 30px;
+  background-color: #d4af37;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+.play-video img {
+  width: 250px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+.play-video p {
+  text-align: center;
+}
