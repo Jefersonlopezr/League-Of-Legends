@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Rangos LOL</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+
+<body class="body-elos">
+    <header class="lol-navbar" style="width: 100%;">
+        <div class="logo">
+            <img src="../MULTIMEDIA/lol.png" alt="League of Legends Logo">
+        </div>
+        <nav class="probando-clase">
+            <ul class="nav-links">
+                <li><a class="letra-tipo-lol" href="../index.html">Inicio</a></li>
+                <li><a class="letra-tipo-lol" href="./campeones.html">Campeones</a></li>             
+                <li><a class="letra-tipo-lol "href="./como-jugar.html">Cómo jugar</a></li>
+                <li><a class="letra-tipo-lol" href="./modos-juego.html">Modos de juego</a></li>
+                <li><a class="letra-tipo-lol" href="https://www.leagueoflegends.com/es-mx/download/" target="_blank" rel="noopener">Jugar</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1 class="titulo-campeones">Rangos de League of Legends</h1>
+    <div class="universe-wrap" id="universe-wrap"></div>
+
+    <!-- Modal -->
+    <div class="portal-fondo" id="portal-fondo">
+        <div class="portal-caja">
+            <span class="portal-cerrar" onclick="cerrarPortal()">&times;</span>
+            <img id="portal-img" src="" alt="">
+            <h2 id="portal-titulo"></h2>
+            <p><strong>Niveles:</strong> <span id="portal-niveles"></span></p>
+            <p><strong>Descripción:</strong> <span id="portal-info"></span></p>
+            <p id="portal-extra"></p>
+        </div>
+    </div>
+
+    <script src="../JAVASCRIPT/elos.js"></script>
+</body>
+
+</html>
