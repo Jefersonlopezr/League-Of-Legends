@@ -2,6 +2,17 @@
 
 Este proyecto es una recreación conceptual y educativa del popular videojuego **League of Legends**, implementando características, campeones y contenido visual. El objetivo es ofrecer una experiencia renovada, manteniendo la esencia estratégica y competitiva del juego original, pero con innovaciones propias.
 
+
+## Maquetación en Figma
+
+![Diseño en figma](image.png)
+
+Se realizó la maquetación del proyecto con la herramienta figma, donde ahí se plasmó los diseños compleots y funcionales que están y ejecutados en el proyecto final.
+
+A continuación el link de figma y su maquetación completa:
+
+[Link de Figma](https://www.figma.com/design/6gxoWfMAbL0x4BzJwSMrRL/Untitled?node-id=0-1&p=f&t=Cu5I8SRXwTubul3D-0)
+
 ## Características principales
 
 - **Campeones y habilidades**: Se muestran campeones originales con habilidades únicas, equilibradas y pensadas para aportar variedad táctica.
@@ -72,7 +83,7 @@ Agradecimientos a la comunidad open source y a los colaboradores que han aportad
 
 ## 👨‍💻 Autor
 
-- **Jeferson Pérez** - [@jefersonperez](https://github.com/Jefersonlopezr)
+- **Jeferson Lopez** - [@jefersonperez](https://github.com/Jefersonlopezr)
 
 ## Recursos adicionales
 
