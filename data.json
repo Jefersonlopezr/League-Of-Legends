@@ -1,0 +1,74 @@
+[
+  {
+    "codigo": "hierrox",
+    "titulo": "Hierro",
+    "info": "Es el rango más bajo del competitivo.",
+    "niveles": 4,
+    "img": "/ICONS/7574-iron.png",
+    "extra": "Aquí están los jugadores que apenas comienzan, donde se aprenden las mecánicas más básicas del juego."
+  },
+  {
+    "codigo": "bronzex",
+    "titulo": "Bronce",
+    "info": "Nivel básico de comprensión del juego.",
+    "niveles": 4,
+    "img": "/ICONS/1184-bronze.png",
+    "extra": "Los jugadores en Bronce ya conocen lo básico, pero aún cometen errores frecuentes y están aprendiendo roles."
+  },
+  {
+    "codigo": "platax",
+    "titulo": "Plata",
+    "info": "Elo promedio con experiencia casual.",
+    "niveles": 4,
+    "img": "/ICONS/7455-silver.png",
+    "extra": "En Plata se encuentra la mayoría de jugadores. Hay una gran variedad de habilidades y estilos de juego."
+  },
+  {
+    "codigo": "orox",
+    "titulo": "Oro",
+    "info": "Jugadores con dominio básico y estrategia.",
+    "niveles": 4,
+    "img": "/ICONS/1053-gold.png",
+    "extra": "Los jugadores en Oro conocen su rol, manejan objetivos y entienden el mapa. Un nivel competitivo decente."
+  },
+  {
+    "codigo": "platinox",
+    "titulo": "Platino",
+    "info": "Buen dominio mecánico y táctico.",
+    "niveles": 4,
+    "img": "/ICONS/3978-platinum.png",
+    "extra": "Jugadores sólidos con conocimiento avanzado. Ya usan estrategias y tácticas de juego en equipo."
+  },
+  {
+    "codigo": "diamantx",
+    "titulo": "Diamante",
+    "info": "Jugadores de alto nivel competitivo.",
+    "niveles": 4,
+    "img": "/ICONS/1053-diamond.png",
+    "extra": "Aquí están los jugadores con excelente mecánica, visión de juego y toma de decisiones óptima."
+  },
+  {
+    "codigo": "maestrox",
+    "titulo": "Maestro",
+    "info": "Nivel de élite, muy competitivo.",
+    "niveles": 1,
+    "img": "/ICONS/9231-master.png",
+    "extra": "Comienzo del juego profesional. Jugadores con constancia y dominio completo de macro y micro juego."
+  },
+  {
+    "codigo": "granmaestrox",
+    "titulo": "Gran Maestro",
+    "info": "Uno de los rangos más altos.",
+    "niveles": 1,
+    "img": "/ICONS/9476-grandmaster.png",
+    "extra": "Competencia feroz, errores mínimos. Nivel casi profesional en ejecución."
+  },
+  {
+    "codigo": "aspirantex",
+    "titulo": "Aspirante",
+    "info": "Top 0.01% del servidor.",
+    "niveles": 1,
+    "img": "/ICONS/9476-challenger.png",
+    "extra": "Jugadores profesionales, streamers y lo mejor de cada región."
+  }
+]
