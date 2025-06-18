@@ -131,7 +131,203 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: flex-start;..
+  align-items: flex-start;
   gap: 20px;
   padding: 20px;
+}
+
+.container-1 img {
+  width: 185px;
+  height: 327px;
+  object-fit: cover;
+  position: absolute;
+}
+
+
+.logo-lol {
+  width: 300px;
+  height: auto;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+}
+
+.containter {
+  display: flex;
+  flex-direction: column;
+}
+
+.intro {
+  height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.video-background {
+  width: 100%;
+  z-index: -10;
+}
+
+.que-es {
+  color: rgb(250, 250, 250);
+  font-size: 40px;
+}
+.descripcion {
+  color: rgb(255, 255, 255);
+}
+
+.video-arreglo {
+  position: absolute;
+  z-index: -10;
+}
+
+.que-es-lol {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  z-index: 10;
+  width: 1000px;
+  text-align: center;
+}
+
+.elegir-campeon {
+  width:700px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+}
+
+.texto-1 {
+  font-size: 26px;
+}
+
+.texto-2 {
+  font-size: 70px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.texto-3 {
+  font-size: 18px;
+}
+
+.boton-campeon {
+  font-size: 20px;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  gap: 45px;
+}
+
+.play-video {
+  width: 600px;
+  height: 600px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  gap: 10px;
+  border-radius: 50%;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.play-text {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.juego-popular {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.arreglo-p {
+  height: auto;
+  text-align: center;
+  width: 700px;
+}
+
+.estas-listo {
+  font-size: 100px;
+}
+
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  margin-top: 0;
+}
+.inner {
+  --w: 100px;
+  --h: 150px;
+  --translateZ: 220px;
+  --rotateX: -15deg;
+  --perspective: 1000px;
+  --quantity: 10;
+  position: relative;
+  width: var(--w);
+  height: var(--h);
+  transform-style: preserve-3d;
+  animation: rotating 20s linear infinite;
+}
+@keyframes rotating {
+  from {
+    transform: rotateX(var(--rotateX)) rotateY(0deg);
+  }
+  to {
+    transform: rotateX(var(--rotateX)) rotateY(360deg);
+  }
+}
+.card {
+  --angle: calc(360deg / var(--quantity) * var(--index));
+  position: absolute;
+  width: var(--w);
+  height: var(--h);
+  border: 2px solid rgba(var(--color-card), 0.8);
+  border-radius: 12px;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  transform: rotateY(var(--angle)) translateZ(var(--translateZ));
+  box-shadow: 0 4px 16px rgba(var(--color-card), 0.2);
+  background: #222;
+}
+.card:hover {
+  box-shadow: 0 8px 32px rgba(var(--color-card), 0.4);
+  transform: rotateY(var(--angle)) translateZ(calc(var(--translateZ) + 20px));
+  transition: transform 0.3s ease-in-out;
+}
+.img {
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(
+    circle,
+    rgba(var(--color-card), 0.2) 0%,
+    rgba(var(--color-card), 0.6) 80%,
+    rgba(var(--color-card), 0.9) 100%
+  );
+}
+.wrapper {
+  perspective: 800px;
+  margin: 0;
+
 }
