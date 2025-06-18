@@ -57,6 +57,6 @@ fetch('../data.json')
     .then(res => res.json())
     .then(data => renderizarRangos(data));
 
-portalFondo.addEventListener('click', function (e) {
+portalFondo.addEventListener('click', function(e) {
     if (e.target === portalFondo) cerrarPortal();
 });
