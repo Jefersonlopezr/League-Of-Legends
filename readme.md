@@ -10,7 +10,7 @@ Puedes ver el portafolio publicado en GitHub Pages aquí:
 
 ![Diseño en figma](image.png)
 
-Se realizó la maquetación del proyecto con la herramienta figma, donde ahí se plasmó los diseños compleots y funcionales que están y ejecutados en el proyecto final.
+Se realizó la maquetación del proyecto con la herramienta figma, donde ahí se plasmó los diseños completos y funcionales que están y ejecutados en el proyecto final.
 
 A continuación el link de figma y su maquetación completa:
 
