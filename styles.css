@@ -729,3 +729,56 @@ body.lol-campeones-page {
   justify-content: center;
   flex: 1; 
 }
+
+.otro-logo-lol {
+  width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  align-self: flex-start;
+}
+
+.como-jugar {
+  width: 90%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 20px 80px px rgba(0,0,0,0.5);
+  padding: 18px;
+}
+
+.universo-tarjetas {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.tarjeta-galactica {
+  background: #1c1c1c;
+  border: 1px solid #333;
+  padding: 15px;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: transform 0.3s, border-color 0.3s;
+}
+
+.tarjeta-galactica:hover {
+  transform: scale(1.05);
+  border-color: #00bfff;
+}
+
+.tarjeta-galactica img {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.tarjeta-galactica h3 {
+  margin: 0 0 10px;
+  color: #00bfff;
+}
