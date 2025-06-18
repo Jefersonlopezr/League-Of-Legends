@@ -783,3 +783,248 @@ body.lol-campeones-page {
   color: #00bfff;
 }
 
+.portal-galactico {
+  display: none;
+  position: fixed;
+  inset: 0;
+  z-index: 10;
+  background: rgba(0, 0, 0, 0.85);
+  overflow: auto;
+  padding-top: 60px;
+}
+
+.nucleo-portal {
+  background: #1c1c1c;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #444;
+  width: 90%;
+  max-width: 500px;
+  border-radius: 10px;
+  text-align: center;
+  position: relative;
+}
+
+.nucleo-portal img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.cerrar-portal {
+  position: absolute;
+  top: 15px; right: 20px;
+  color: #ccc;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.cerrar-portal:hover { color: #fff; }
+
+#titulo-modos {
+  text-align: center;
+  margin: 15px;
+  font-size: 25px;
+}
+
+/* Nueva sección competitivo */
+.competitivo-section {
+  background-color: #262323d6;
+  padding: 120px 20px 80px 20px;
+  display: flex;
+  gap: 150px;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+  flex-direction: row;
+  gap: 200px;
+  
+  
+}
+.competitivo-content {
+  max-width: 600px;
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 20px;
+}
+.primera-parte-competitivo {
+
+}
+
+.competitivo-section h1 {
+  font-size: 2rem;
+  color: #fff;
+}
+.competitivo-section h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: #fff;
+}
+.competitivo-section p {
+  color: #fff;
+}
+
+.quieres-competir {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  gap: 20px;
+
+}
+/* Nuevo footer al final */
+.main-footer {
+  background-color: #222;
+  padding: 80px 20px 40px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-footer-content {
+  max-width: 600px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 20px;
+}
+.main-footer h1 {
+  color: #f5deb3;
+  font-size: 1.7rem;
+}
+.main-footer p {
+  color: #fff;
+}
+
+.riot-footer {
+  background-color: #111;
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.footer-social {
+  margin-bottom: 20px;
+}
+
+.footer-social a {
+  margin: 0 8px;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+}
+
+.footer-social img {
+  width: 100%;
+  height: auto;
+  filter: invert(100%);
+}
+
+.footer-logo img {
+  height: 70px;
+  margin-bottom: 15px;
+}
+
+.footer-text {
+  font-size: 0.9rem;
+  max-width: 800px;
+  margin: 0 auto 20px;
+  color: #ccc;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+  margin-bottom: 30px;
+}
+
+.footer-links li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.footer-links li a:hover {
+  text-decoration: underline;
+}
+
+.footer-esrb {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+  flex-wrap: wrap;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.footer-esrb img {
+  height: 90px;
+}
+
+.footer-esrb-text p {
+  margin: 2px 0;
+  font-size: 0.85rem;
+}
+
+/* dfaaccadad */
+
+.body-elos {
+  font-family: Arial, sans-serif;
+  background: #0a0a0a;
+  color: white;
+
+}
+
+.h1-elos {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.elos-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.elo-card {
+  background: #1a1a1a;
+  border-radius: 10px;
+  padding: 20px;
+  width: 250px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.elo-card:hover {
+  transform: scale(1.05);
+}
+
+.elo-card img {
+  width: 100px;
+  height: auto;
+}
+
+.elo-card h2 {
+  margin: 10px 0;
+  color: gold;
+}
+
+.elo-card p {
+  font-size: 14px;
+}
