@@ -711,3 +711,21 @@ body.lol-campeones-page {
 
 }
 
+.lol-navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  background: #0e0f13;
+  padding: 0px 0px;
+  gap: 40px; 
+}
+
+.lol-navbar .logo {
+  margin: 0;
+}
+
+.probando-clase {
+  display: flex;
+  justify-content: center;
+  flex: 1; 
+}
