@@ -2,6 +2,9 @@
 
 Este proyecto es una recreación conceptual y educativa del popular videojuego **League of Legends**, implementando características, campeones y contenido visual. El objetivo es ofrecer una experiencia renovada, manteniendo la esencia estratégica y competitiva del juego original, pero con innovaciones propias.
 
+## 🌐 Demo en línea
+Puedes ver el portafolio publicado en GitHub Pages aquí:
+👉 https://jefersonlopezr.github.io/League-Of-Legends/
 
 ## Maquetación en Figma
 
